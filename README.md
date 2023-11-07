@@ -49,7 +49,7 @@ The models are then deployed as a Flask API. The API can be used to predict whet
 
 To use the API, you can use the following command:
 
-
+```
 curl -X POST -H "Content-Type: application/json" -d '{"education": "Master's degree", "joining_year": 2022, "city": "Paris", "payment_tier": 3, "age": 35, "gender": "Male", "ever_benched": "Yes", "experience_in_current_domain": 5}' localhost:9797/predict
 ```
 
@@ -87,6 +87,7 @@ docker run api_flask
 
 ```
 pipenv python request_api.py
+```
 
 
 This will run the `request_api.py` script, which will query the API and print the response.
