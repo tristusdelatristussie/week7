@@ -88,7 +88,7 @@ docker exec -it api_flask pipenv python request_api.py
 with curl : 
 
 ```
-curl -X POST -H "Content-Type: application/json" -d '{"education": "Master's degree", "joining_year": 2022, "city": "Paris", "payment_tier": 3, "age": 35, "gender": "Male", "ever_benched": "Yes", "experience_in_current_domain": 5}' localhost:9797/predict
+curl -X POST -H "Content-Type: application/json" -d '{"education": "Master's degree", "joining_year": 2022, "city": "Bangalore", "payment_tier": 3, "age": 35, "gender": "Male", "ever_benched": "Yes", "experience_in_current_domain": 5}' localhost:9797/predict
 ```
 
 The API will return a JSON response with the predicted probability that the employee will leave.
