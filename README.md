@@ -77,12 +77,12 @@ docker run api_flask
 
 In container with script :
 ```
-pipenv python request_api.py
+python request_api.py
 ```
 or 
 
 ```
-docker exec -it api_flask pipenv python request_api.py
+docker exec -it [Name of your container] python request_api.py
 ```
 
 with curl : 
