@@ -3,8 +3,6 @@
 A company wants to know how to predict which employees are likely to leave. 
 This repository contains a project to predict if an employee leaves the company. The project uses a dataset of employee data to train two machine learning models: a random forest classifier and an XGBoost classifier. The models are then deployed as a Flask API.
 
-## Summary
-
 ## Methodology
 
 The project follows the following methodology:
