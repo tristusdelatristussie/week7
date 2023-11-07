@@ -62,7 +62,7 @@ To use the app, you will need to have Docker installed.
 1. Clone the repository:
 
 ```
-git clone https://github.com/[YOUR_USERNAME]/employee-churn-prediction.git
+git clone https://github.com/tristusdelatristussie/week7.git
 ```
 
 2. Change into the repository directory:
