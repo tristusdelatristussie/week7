@@ -58,7 +58,7 @@ git clone https://github.com/tristusdelatristussie/week7.git
 2. Change into the repository directory:
 
 ```
-cd employee-churn-prediction
+cd week7
 ```
 
 3. Build the image:
@@ -82,7 +82,7 @@ python request_api.py
 or 
 
 ```
-docker exec -it [Name of your container] python request_api.py
+docker exec -it [Name of your container for example api_flask] python request_api.py
 ```
 
 with curl : 
